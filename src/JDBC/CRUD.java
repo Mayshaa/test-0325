@@ -26,7 +26,7 @@ public class CRUD {
 
 		try {
 			// 준비단계
-			con = DBConnection.DBconnect(); // 접속정보를 con에다가 담겠다.
+			con = DBConnection.DBconnect(); // 접속정보를 con에다가 담겠다.1
 			stmt = con.createStatement();
 
 			// SQL문 작성
